@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(148, 230, 148);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.button {
+    background-color: rgb(65, 61, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.buttons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sidebyside {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
